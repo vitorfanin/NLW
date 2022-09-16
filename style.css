@@ -26,7 +26,7 @@ header {
     height: calc(120px + 32px);
 }
 
-header div {
+header div a {
     width: 120px;
     margin: auto;
     background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
@@ -106,7 +106,7 @@ section ul li:hover {
     border: 1px solid #443E54;
 }
 
-/* amimation */
+/* animation */
 
 header div {
     animation: fromTop .7s .2s backwards;
